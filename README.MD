@@ -13,7 +13,7 @@ By changing the distance between your **thumb** and **index finger**, you can:
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. The webcam captures video in real time.
 2. MediaPipe detects your hand and extracts **21 hand landmarks**.
@@ -36,12 +36,14 @@ pip install opencv-python mediapipe pyautogui numpy
 
 ## AI Model File
 
-You must download the MediaPipe hand model:
+This repository already contains the file: hand_landmarker.task
+Downloaded from:
 
-Download from:
 https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task
 
-Place it in the same folder as your Python script
+This file is essential for the project to work because it contains the trained AI model used for hand detection.
+
+If you delete or move this file, the program will not run.
 
 ## How To Run
 RUN: python main.py
