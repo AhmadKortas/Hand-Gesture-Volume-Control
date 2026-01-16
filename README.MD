@@ -37,6 +37,7 @@ pip install opencv-python mediapipe pyautogui numpy
 ## AI Model File
 
 This repository already contains the file: hand_landmarker.task
+
 Downloaded from:
 
 https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task
